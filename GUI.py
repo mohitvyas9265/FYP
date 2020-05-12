@@ -74,14 +74,14 @@
    74         top.resizable(1, 1)
    75         top.title("CyberBullying Detection System")
    76         top.configure(background="#d9d9d9")
-   77 
+   77 #idhar se main start h
    78         self.Frame1 = tk.Frame(top)
    79         self.Frame1.place(relx=0.0, rely=0.0, relheight=1.0, relwidth=1.0)
    80         self.Frame1.configure(relief='groove')
    81         self.Frame1.configure(borderwidth="2")
    82         self.Frame1.configure(relief="groove")
    83         self.Frame1.configure(background="#caeac8")
-   84 
+   84 #title
    85         self.Label1 = tk.Label(self.Frame1)
    86         self.Label1.place(relx=0.118, rely=0.071, height=43, width=478)
    87         self.Label1.configure(background="#d0d0e1")
@@ -90,7 +90,7 @@
    90         self.Label1.configure(foreground="#000000")
    91         self.Label1.configure(highlightthickness="20")
    92         self.Label1.configure(text='''CyberBullying Detection System''')
-   93 
+   93 #label
    94         self.TLabel1 = ttk.Label(self.Frame1)
    95         self.TLabel1.place(relx=0.05, rely=0.211, height=31, width=217)
    96         self.TLabel1.configure(background="#d9d9d9")
@@ -100,7 +100,7 @@
   100         self.TLabel1.configure(anchor='w')
   101         self.TLabel1.configure(justify='left')
   102         self.TLabel1.configure(text='''Choose your Testing Set''')
-  103 
+  103 #idhar upload hona chahiye
   104         self.TestingSet = tk.Entry(self.Frame1)
   105         self.TestingSet.place(relx=0.483, rely=0.222,height=20, relwidth=0.457)
   106         self.TestingSet.configure(background="white")
@@ -108,7 +108,7 @@
   108         self.TestingSet.configure(font="TkFixedFont")
   109         self.TestingSet.configure(foreground="#000000")
   110         self.TestingSet.configure(insertbackground="black")
-  111 
+  111 #label choose model
   112         self.Label2 = tk.Label(self.Frame1)
   113         self.Label2.place(relx=0.183, rely=0.311, height=21, width=138)
   114         self.Label2.configure(background="#d9d9d9")
@@ -116,7 +116,7 @@
   116         self.Label2.configure(font=font11)
   117         self.Label2.configure(foreground="#000000")
   118         self.Label2.configure(text='''Choose Model''')
-  119 
+  119 #radio buttons
   120         self.LogisticRegression = tk.Radiobutton(self.Frame1)
   121         self.LogisticRegression.place(relx=0.483, rely=0.311, relheight=0.056
   122                 , relwidth=0.232)
